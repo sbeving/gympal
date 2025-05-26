@@ -25,7 +25,7 @@ interface GeminiAiService {
 class GeminiAiServiceImpl @Inject constructor() : GeminiAiService {
     
     // Replace with your actual API key from Google AI Studio
-    private val apiKey = "AIzaSyD7l5Zn3eR2rD_JhCDE0Wr_aSrSBfTV6rk"
+    private val apiKey = "REPLACE_WITH_YOUR_API_KEY"
     
     private val geminiModel = GenerativeModel(
         modelName = "gemini-2.0-flash",
