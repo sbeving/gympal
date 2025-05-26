@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WorkoutProgressView">
+        <attr name="workoutName" format="string" />
+        <attr name="workoutType" format="enum">
+            <enum name="cardio" value="0" />
+            <enum name="strength" value="1" />
+            <enum name="flexibility" value="2" />
+            <enum name="hiit" value="3" />
+        </attr>
+        <attr name="workoutProgress" format="integer" />
+        <attr name="workoutGoal" format="integer" />
+        <attr name="workoutUnit" format="string" />
+    </declare-styleable>
+</resources>

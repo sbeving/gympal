@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/calculatorsFragment"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/calculators" />
+    <item
+        android:id="@+id/trackingFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/tracking" />
+    <item
+        android:id="@+id/coachFragment"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/coach" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/profile" />
+</menu>
